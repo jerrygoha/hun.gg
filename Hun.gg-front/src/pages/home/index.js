@@ -4,9 +4,9 @@ import { Link, useHistory } from 'react-router-dom';
 
 const Home = () => {
   const GameList = [
-    {path: '/lol', title: '리그 오브 레전드', gameBackground: 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/lol-background.png', gameIcon: 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/leagueOfLegendIcon.png', isOpen: true},
-    {path: '/tft', title: '전략적 팀 전투', gameBackground: 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/tft-background.png', gameIcon: 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/tft-icon.png', isOpen: false},
-    {path: '/lor',title: '레전드 오브 룬테라', gameBackground: 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/lor-background.png', gameIcon: 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/lor-icon.png', isOpen: false}
+    {path: '/lol', title: '리그 오브 레전드', gameBackground: 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/lol-background.png', gameIcon: 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/leagueOfLegendIcon.png', isOpen: true},
+    {path: '/tft', title: '전략적 팀 전투', gameBackground: 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/tft-background.png', gameIcon: 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/tft-icon.png', isOpen: false},
+    {path: '/lor',title: '레전드 오브 룬테라', gameBackground: 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/lor-background.png', gameIcon: 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/lor-icon.png', isOpen: false}
   ]
   const [summonerName, setSummonerName] = useState('');
   const history = useHistory();
@@ -24,7 +24,7 @@ const Home = () => {
     return (
         <HomeContainer>
             <HomeMainImg
-                src={"https://s3.ap-northeast-2.amazonaws.com/marcus.gg/kaisa_logo_darknavy_all.svg"}
+                src={"https://s3.ap-northeast-2.amazonaws.com/hun.gg/kaisa_logo_darknavy_all.svg"}
                 alt="logo"
             />
             <FormContainer>

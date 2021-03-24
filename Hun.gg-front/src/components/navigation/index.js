@@ -8,10 +8,10 @@ const Navigation = ({}) => {
             <Navbar>
                 <NavbarLeft>
                     <Link to={'/'}>
-                        <BrandLogo src={"https://s3.ap-northeast-2.amazonaws.com/marcus.gg/kaisa_logo_darknavy_text.svg"} alt={'logo'}/>
+                        <BrandLogo src={"https://s3.ap-northeast-2.amazonaws.com/hun.gg/kaisa_logo_darknavy_text.svg"} alt={'logo'}/>
                     </Link>
                     <GameLogoBox>
-                        <GameLogo src={'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/leagueOfLegendIcon.png'} alt={'logo'} />
+                        <GameLogo src={'https://s3.ap-northeast-2.amazonaws.com/hun.gg/leagueOfLegendIcon.png'} alt={'logo'} />
                         <GameTitle>리그 오브 레전드</GameTitle>
                     </GameLogoBox>
                 </NavbarLeft>
@@ -19,7 +19,7 @@ const Navigation = ({}) => {
                     <LoginBtn>
                         로그인
                     </LoginBtn>
-                    <img src={'s3://marcus.gg/icon-language@2x.png'} alt={""} />
+                    <img src={'s3://hun.gg/icon-language@2x.png'} alt={""} />
                 </NavbarRight>*/}
             </Navbar>
         </NavbarLayout >

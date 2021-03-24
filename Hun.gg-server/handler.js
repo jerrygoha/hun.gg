@@ -1,7 +1,7 @@
 'use strict';
 const axios = require('axios');
 const moment = require('moment');
-const {api_key} = require('./../Marcus.gg-server/src/config/config')
+const {api_key} = require('./../Hun.gg-server/src/config/config')
 
 // static Data
 module.exports.LeagueOfLegendItem = async event => {

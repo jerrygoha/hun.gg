@@ -39,7 +39,7 @@ const SoloRank = ({data}) => {
           <Circle percent={leaguePoints} trailWidth="4" strokeWidth="4" trailColor="#263552"
                   strokeColor={getTierColor(tier)}/>
         </SoloRankTierCircle>
-        <img src={`https://s3.ap-northeast-2.amazonaws.com/marcus.gg/lol-tier/${tier}.png`}/>
+        <img src={`https://s3.ap-northeast-2.amazonaws.com/hun.gg/lol-tier/${tier}.png`}/>
       </SoloRankTierIcon>
       <SoloRankTierInfo>
         <TierName style={{color: getTierColor(tier)}}>

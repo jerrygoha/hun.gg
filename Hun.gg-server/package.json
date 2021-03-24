@@ -1,5 +1,5 @@
 {
-  "name": "marcus.gg-server",
+  "name": "hun.gg-server",
   "version": "1.0.0",
   "description": "- [X] Summoner Search API - [X] Summoner League Info API - [X] Summoner GameList API - [X] Summoner DetailGameList API - [X] LeagueOfLegend Items API - [X] LeagueOfLegend Champions API",
   "main": "handler.js",

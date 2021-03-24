@@ -45,11 +45,11 @@ const LaneWrapper = styled.div`
 const LaneImg = styled.div`
   background-image: url(${props => {
   if (props.lane === 'JUNGLE') {
-    return `https://s3.ap-northeast-2.amazonaws.com/marcus.gg/lol-position/Position_Jungle.png`
+    return `https://s3.ap-northeast-2.amazonaws.com/hun.gg/lol-position/Position_Jungle.png`
   } else if (props.lane === 'MID') {
-    return 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/lol-position/Position_Mid.png'
+    return 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/lol-position/Position_Mid.png'
   } else if (props.lane === 'TOP') {
-    return 'https://s3.ap-northeast-2.amazonaws.com/marcus.gg/lol-position/Position_Top.png'
+    return 'https://s3.ap-northeast-2.amazonaws.com/hun.gg/lol-position/Position_Top.png'
   }
 }});
   display: block;
